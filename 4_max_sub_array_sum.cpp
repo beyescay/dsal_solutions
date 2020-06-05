@@ -5,7 +5,7 @@
 
 using std::vector;
 
-int MaxSubArray(vector<int>& nums) {
+int MaxSubArraySum(vector<int>& nums) {
 
   int max_sum = nums[0];
 
@@ -26,5 +26,5 @@ int main() {
 
   vector<int> nums{-2,1,-3,4,-1,2,1,-5,4};
 
-  std::cout << MaxSubArray(nums) << std::endl;
+  std::cout << MaxSubArraySum(nums) << std::endl;
 }
